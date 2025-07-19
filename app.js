@@ -21,7 +21,7 @@ function escapeHTML(s) {
             .replace(/>/g, '&gt;');
 }
 
-app.listen(3000,(req,res) => {
+app.listen(80,"0.0.0.0",(req,res) => {
     console.log("API running");
 });
 
